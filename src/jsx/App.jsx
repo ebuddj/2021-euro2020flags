@@ -3,7 +3,7 @@ import style from './../styles/styles.less';
 
 // https://www.npmjs.com/package/country-flags-svg
 // https://www.npmjs.com/package/round-flags
-import { BE,CH,DE,DK,ES,IT,SE,CZ,UA } from 'round-flags';
+import { DE,DK,ES,IT,CZ,UA } from 'round-flags';
 
 // https://svgcrop.com/
 import GB_EN from './../../media/img/uk-en-circle-01.png';
@@ -34,13 +34,9 @@ class App extends Component {
       <div className={style.app}>
         <div>
           <img src={IT} alt="Italy" />
-          <img src={BE} alt="Belgium" />
           <img src={ES} alt="Spain" />
-          <img src={CH} alt="Switzerland" />
           <img src={DK} alt="Denmark" />
-          <img src={CZ} alt="Czechia" />
-          <img src={GB_EN} alt="Ukraine" />
-          <img src={UA} alt="Ukraine" />
+          <img src={GB_EN} alt="England" />
         </div>
       </div>
     );
