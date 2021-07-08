@@ -2,7 +2,7 @@
 
 **Live demo** https://ebuddj.github.io/2021-euro2020flags/
 
-## Project title
+## Euro 2020 country flags (EBU)
 
 **Sources**
 * []()
